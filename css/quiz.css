@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
 :root {
-    --CL-1: #fee4cb;
-    --CL-2: #d5deff;
+    --CL-1: #fcead9;
+    --CL-2: #e2e7ff;
     --CL-3: #ffd3e2;
-    --CL-4: #c8f7dc;
-    --CL-5: #dbf6fb;
-    --CL-6: #e9e7fd;
-    --CL-7: #d7fff7;
-    --CL-8: #d3ecff;
+    --CL-4: #d8fce0;
+    --CL-5: #d8f9ff;
+    --CL-6: #f1dfff;
 
     --CD-1: #ff942e;
     --CD-2: #4067f9;
@@ -15,8 +13,6 @@
     --CD-4: #34c471;
     --CD-5: #096c86;
     --CD-6: #4f3ff0;
-    --CD-7: #009578;
-    --CD-8: #0091ff;
 
     --cl-0: #ffffff;
     --cl-1: #f1f3ff;
@@ -25,12 +21,12 @@
     --cl-4: #dddfeb;
     --cl-5: #b7b9cc;
 
-    --cd-5: #858796;
-    --cd-4: #6e707e;
-    --cd-3: #5a5c69;
+    --cd-0: #000000;
     --cd-2: #3a3b45;
     --cd-1: #090909;
-    --cd-0: #000000;
+    --cd-3: #5a5c69;
+    --cd-4: #6e707e;
+    --cd-5: #858796;
 
     --bg-R: #00b894;
     --bg-W: #e74c3c;
@@ -91,37 +87,29 @@ body {
     border-radius: 10px;
     transition: all 0.2s ease-in-out;
 }
-.topics span:nth-child(8n + 1) {
+.topics span:nth-child(6n + 1) {
     background: var(--CL-1);
     color: var(--CD-1);
 }
-.topics span:nth-child(8n + 2) {
+.topics span:nth-child(6n + 2) {
     background: var(--CL-2);
     color: var(--CD-2);
 }
-.topics span:nth-child(8n + 3) {
+.topics span:nth-child(6n + 3) {
     background: var(--CL-3);
     color: var(--CD-3);
 }
-.topics span:nth-child(8n + 4) {
+.topics span:nth-child(6n + 4) {
     background: var(--CL-4);
     color: var(--CD-4);
 }
-.topics span:nth-child(8n + 5) {
+.topics span:nth-child(6n + 5) {
     background: var(--CL-5);
     color: var(--CD-5);
 }
-.topics span:nth-child(8n + 6) {
+.topics span:nth-child(6n + 6) {
     background: var(--CL-6);
     color: var(--CD-6);
-}
-.topics span:nth-child(8n + 7) {
-    background: var(--CL-7);
-    color: var(--CD-7);
-}
-.topics span:nth-child(8n + 8) {
-    background: var(--CL-8);
-    color: var(--CD-8);
 }
 .start-box .start-footer {
     margin: 20px 0 0;
@@ -179,7 +167,6 @@ body {
 .review-header .review-title,
 .review-header .review-menu {
     font-size: 20px;
-    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +203,6 @@ body {
     align-items: center;
     border-top: 1px solid var(--cd-5);
     border-bottom: 1px solid var(--cd-5);
-    /* height: 48px; */
     padding: 10px 0px;
     margin: 0 4px;
 }
@@ -324,22 +310,18 @@ table tr td {
     vertical-align: text-top;
 }
 
-/* top-left border-radius */
 table tr:first-child th:first-child {
     border-top-left-radius: 12px;
 }
 
-/* top-right border-radius */
 table tr:first-child th:last-child {
     border-top-right-radius: 12px;
 }
 
-/* bottom-left border-radius */
 table tr:last-child td:first-child {
     border-bottom-left-radius: 12px;
 }
 
-/* bottom-right border-radius */
 table tr:last-child td:last-child {
     border-bottom-right-radius: 12px;
 }
@@ -541,7 +523,7 @@ table tr:last-child td:last-child {
     align-items: center;
 }
 
-.answer-header .answer-text{
+.answer-header .answer-text {
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
@@ -706,12 +688,10 @@ table tr:last-child td:last-child {
 .result-body table td {
     font-size: 18px;
 }
-/* top-left border-radius */
 .result-body table tr:first-child td:first-child {
     border-top-left-radius: 12px;
     border-top: 1px solid var(--bg-P);
 }
-/* top-right border-radius */
 .result-body table tr:first-child td:last-child {
     border-top-right-radius: 12px;
     border-top: 1px solid var(--bg-P);
@@ -758,7 +738,7 @@ table tr:last-child td:last-child {
         border-radius: 0px;
     }
     .quiz-header .quiz-title,
-    .review-header .review-title{
+    .review-header .review-title {
         margin: 10px;
     }
     .quiz-header .quiz-menu,
@@ -773,7 +753,7 @@ table tr:last-child td:last-child {
     }
 
     .quiz-header .quiz-menu svg,
-    .review-header .review-menu svg{
+    .review-header .review-menu svg {
         width: 18px;
         height: 18px;
     }

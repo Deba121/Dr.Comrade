@@ -395,7 +395,7 @@ submit.addEventListener('click', function () {
 
     side1.classList.remove('active');
     over1.classList.remove('active');
-    side1.classList.add('inactive');
+    // side1.classList.add('inactive');
     over1.classList.add('inactive');
 
     Q_Box.classList.remove('active');
@@ -411,6 +411,9 @@ function quizResult() {
     let timeTaken = `${minutes} min & ${seconds} sec`;
     if (minutes < 1) {
         timeTaken = `${seconds} sec`;
+    }
+    if (seconds < 10) {
+        timeTaken = `0${seconds} sec`;
     }
 
     //  create table
@@ -463,6 +466,9 @@ review.addEventListener('click', function () {
 function setReviewQuestion() {
     // set the time
     let timeTaken = `${minutes} : ${seconds}`;
+    if (minutes < 10) {
+        timeTaken = `0${minutes} : ${seconds}`;
+    }
     if (minutes < 1) {
         timeTaken = `00 : ${seconds}`;
     }
