@@ -1,676 +1,439 @@
 let quiz = {
-    chapter: 'The living World',
+    chapter: 'Tissue & Physiology Of Plant & Animals',
     topics: [
-        'Mordern',
-        'Antiant',
-        'Mediaval',
-        'Gandu',
-        'Animilia',
-        'Virus',
-        'Viroid',
-        'Prions',
+        'Tissue',
+        'Blood',
+        'Muscle',
+        'Cork',
+        'Growth Factor',
+        'Glands',
     ],
-    title: 'The living World Ex1',
+    title: 'Tissue & Physiology Of Plant & Animals',
     colors: ['#096c86', '#096c8636', '#dbf6fb'],
     questions: [
         {
-            question:
-                'Which is the most important but generally not used criteria for the identification of the species ?',
+            question: 'Meristematic tissues are found in',
             options: [
-                'Interbreeding ',
-                'Morphology',
-                'Genetic material ',
+                'only stems of the plants',
+                'both roots and stems',
+                'in all growing tips of the plant body',
+                'only roots of the plants',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'The process of formation of blood corpuscles is called',
+            options: [
+                'haemopoiesis ',
+                'heamolysis',
+                'heamozoin ',
                 'None of these',
             ],
             answer: 1,
         },
         {
             question:
-                'The living organisms can be unexceptionally distinguished from the non-living things on the basis of their ability for',
+                'Largest number of neuron cell is present in human body in',
+            options: ['retina ', 'spinal cord', 'brain ', 'tongue'],
+            answer: 3,
+        },
+        {
+            question: 'Nucleated part of nerve cell is called',
+            options: ['axon ', 'dendrites', 'cyton ', 'None of the above'],
+            answer: 3,
+        },
+        {
+            question: 'The chief function of vessels in the plant body is',
             options: [
-                'interaction with the environment and progressive evolution',
-                'reproduction',
-                'growth and movement',
-                'responsiveness to touch',
+                'to translocate food material',
+                'to conduct water and mineral salts',
+                'to support living cells',
+                'all above',
             ],
             answer: 2,
         },
         {
-            question: 'Biological organisation starts with',
+            question: 'Which of the following is an epidermal cell',
             options: [
-                'cellular level',
-                'organism level',
-                'atomic level',
-                'sub-microscopic molecular level',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'The growth and reproduction are mutually exclusive events in',
-            options: [
-                'Plants only',
-                'Animals only',
-                'Higher animals and plants',
-                'Lower organisms',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'The sum total of chemical reactions occurring in our body is called',
-            options: [
-                'Metabolism ',
-                'Homeostasis',
-                'Irritability ',
-                'Catabolism',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Mark the correct statement',
-            options: [
-                'Only living organisms grow.',
-                'Plants grow only up to a certain age.',
-                'The growth in living organisms is from inside.',
+                'Guard cells ',
+                'Root hairs',
+                'Trichome ',
                 'All of these',
             ],
-            answer: 3,
-        },
-        {
-            question:
-                'Which of the following biological processes do not operate within the life span of a given organism ?',
-            options: [
-                'Birth and nutrition',
-                'Growth and maturation',
-                'Metabolism and excretion',
-                'Decomposition and mineralization',
-            ],
             answer: 4,
         },
         {
-            question:
-                'Growth development and functioning of living body is due to -',
-            options: ['Order ', 'Homeostasis', 'Metabolism ', 'Adaptation'],
-            answer: 3,
-        },
-        {
-            question:
-                'Which type of organisation is found in only living beings ?',
-            options: ['Atomic ', 'Molecular', 'Mixture ', 'Sub-cellular'],
-            answer: 4,
-        },
-        {
-            question: 'Organisation levels in living beings are -',
+            question: 'The muscles in stomach are.',
             options: [
-                'Subcellular cellular individual community population',
-                'Atomic molecular subcellular cellular tissue organ individual',
-                'Individual population organ system tissue cellular molecular atomic',
-                'Atomic molecular tissue individual ecosystem community.',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Which of the following statement is false?',
-            options: [
-                'Properties of cellular organelles are present in the molecular constituents of the organelles.',
-                'Interactions among the molecular components of the organelles result into properties of cell organelles.',
-                'Biology is the story of life on earth.',
-                'Biology is the story of evolution of living organisms on earth.',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'A plant differs from an animal mainly in :',
-            options: [
-                'Protoplasm ',
-                'Vital activities',
-                'Nutrition ',
-                'Reproduction',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Artificial system of classification classifies plants on the basis of',
-            options: [
-                'One or two characters',
-                'Phylogenetic trends',
-                'Many naturally existing characters',
+                'voluntary ',
+                'involuntary',
+                'Cardior ',
                 'None of the above',
             ],
-            answer: 1,
-        },
-        {
-            question:
-                'Group of organisms that closely resemble each other and freely interbreed in nature, constitute ',
-            options: ['Species ', 'Genus', 'Family ', 'Taxon'],
-            answer: 1,
-        },
-        {
-            question: 'ICBN was first revised in',
-            options: ['1961 ', '1964', '1975 ', '1753'],
-            answer: 3,
-        },
-        {
-            question: 'The term taxon refers to',
-            options: [
-                'Name of a species',
-                'Name of genus',
-                'Name of family',
-                'A taxonomic group of any rank',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'The herbarium specimen on whose basis a new species is described for the first time is called as',
-            options: ['Syntype ', 'Holotype', 'Paratype ', 'Neotype'],
             answer: 2,
         },
         {
-            question:
-                'The scientific naming of plants began with publication of Linnaeus book',
+            question: 'Cavity or lumen is narrow in',
             options: [
-                'Genera plantarum ',
-                'Systema naturae',
-                'Species plantarum ',
-                'Charaka sanhita',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The basic unit of classification is',
-            options: ['Genus ', 'Species', 'Order ', 'All of these'],
-            answer: 2,
-        },
-        {
-            question:
-                'Individuals of same species having non-genetic differences due to environment are called',
-            options: ['Biotypes ', 'Ecotype', 'Ecophenes ', 'None of these'],
-            answer: 3,
-        },
-        {
-            question:
-                'Morphologically similar but reproductively isolated species are called',
-            options: [
-                'Neontological species ',
-                'Sibling species',
-                'Allopatric species ',
-                'Morpho-species',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Plant nomenclature means :',
-            options: [
-                'To give names to plants without any rules',
-                'Nomenclature of plants under the international rules',
-                'Nomenclature of plants in local language',
-                'Nomenclature of plants in english language',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Taxonomy refers to',
-            options: [
-                'Plant classification ',
-                'Plant nomenclature',
-                'Plant affinity ',
-                'All of these',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'Which of the following is a correct name ?',
-            options: [
-                'Solanum tuberosum',
-                'Solanum Tuberosum',
-                'Solanum tuberosum Linn.',
-                'All of these',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Systematics deals with',
-            options: [
-                'Classification ',
-                'Nomenclature',
-                'Plant description ',
-                'Plant exploration',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Phylogeny refers to',
-            options: [
-                'Natural classification',
-                'Evolutionary classification',
-                'Evolutionary history',
-                'Origin of algae',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Static concept of species is given by',
-            options: ['Linnaeus ', 'Bentham', 'Koch ', 'Mayr'],
-            answer: 1,
-        },
-        {
-            question: 'In taxonomy the first step is :',
-            options: [
-                'Identification ',
-                'Nomenclature',
-                'Classification ',
-                'Affinities',
+                'Sclerenchyma ',
+                'Parenchyma',
+                'Collenchyma ',
+                'Tracheids',
             ],
             answer: 1,
         },
         {
-            question: 'The suffix - inae signifies the rank :',
-            options: ['Tribe ', 'Sub tribe', 'Sub order ', 'Sub family'],
-            answer: 2,
+            question: 'Which tissue does lack blood supply and heals slowly ?',
+            options: ['nervous ', 'muscle', 'cartilage ', 'bone'],
+            answer: 3,
         },
         {
-            question:
-                'Species living in different geographical areas are called',
-            options: ['Allochronic ', 'Allopatric', 'Sympatric ', 'Siblings'],
-            answer: 2,
+            question: 'Nervous tissue is not found in',
+            options: ['brain ', 'spinal cord', 'tendons ', 'nerves'],
+            answer: 3,
         },
         {
-            question: 'Biological concept of species proposed by',
-            options: ['Linnaeus ', 'Mayr', 'John Ray ', 'De Candolle'],
-            answer: 2,
-        },
-        {
-            question:
-                'For higher plants, flowers are chiefly used as a basis of classification, because',
+            question: 'The dead element present in the phloem is',
             options: [
-                'These show a great variety in colour',
-                'It can be preserved easily',
-                'Reproductive parts are more conservative than vegetative parts',
+                'companion cells',
+                'phloem fibres',
+                'phloem parenchyma',
+                'sieve tube',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Girth of stem increases due to',
+            options: [
+                'apical meristem',
+                'lateral meristem',
+                'intercalary meristem',
+                'vertical meristem',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'The pH of blood is.',
+            options: [
+                'acidic ',
+                'Alkaline',
+                'Slightly alkaline ',
+                'None of the above',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Which of the following tissues has dead cells?',
+            options: [
+                'Parenchyma ',
+                'Sclerenchyma',
+                'Collenchyma ',
+                'Epithelial tissue',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'The muscles in stomach are.',
+            options: [
+                'voluntary ',
+                'involuntary',
+                'Cardior ',
+                'None of the above',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Find the true statement:',
+            options: [
+                'Meristematic cells are not compactly arranged.',
+                'Collenchyma is not a simple tissue.',
+                'the term histology was coined by Meyer',
                 'None of these',
             ],
             answer: 3,
         },
         {
-            question: 'The smallest unit of classification is',
-            options: ['Family ', 'Order', 'Genus ', 'Species'],
-            answer: 4,
-        },
-        {
-            question: 'A division is formed by combining several',
-            options: ['Orders ', 'Families', 'Classes ', 'Tribes'],
-            answer: 3,
-        },
-        {
-            question:
-                'What characters are used for declaration of new species of higher plants ?',
+            question: 'The chief function of vessels in the plant body is',
             options: [
-                'Floral character of new species',
-                'Anatomical characters of new species',
-                'Physiological charactes of new species',
-                'Character of endosperm',
+                'to translocate food material',
+                'to conduct water and mineral salts',
+                'to support living cells',
+                'all above',
             ],
-            answer: 1,
+            answer: 2,
         },
         {
-            question: 'Evolutionary classification is called',
+            question: 'A tissue is a group of cells which are',
             options: [
-                'Artificial system ',
-                'Natural system',
-                'Phylogenetic system ',
-                'None of the above',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Which of the following statements regarding nomenclature is correct ?',
-            options: [
-                'Generic name always begins with capital letter whereas specific name with small letter',
-                'Scientific name should be printed in italics',
-                'Scientific name when typed or handwritten should be underlined',
-                'All the above',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'biological concept of species is mainly based on',
-            options: [
-                'Morphological features',
-                'Morphology and method of reproduction',
-                'Method of reproduction only',
-                'Reproductive isolation',
+                'similar in origin, but dissimilar in form and function.',
+                'dissimilar in origin, form and function.',
+                'dissimilar in origin, but similar in form and function.',
+                'similar in origin, form and function.',
             ],
             answer: 4,
         },
         {
             question:
-                'Which system classifies a plant in more than one groups ?',
+                'Various functions like photosynthesis, storage, excretion performed by _____________.',
             options: [
-                'Practical classification',
-                'Artificial classification',
-                'Natural classification',
-                'Phylogenetic classification',
+                'sclerenchyma ',
+                'parenchyma',
+                'collenchyma ',
+                'aerenchyma',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Lignin is the important constituent in the cell wall of',
+            options: ['phloem ', 'parenchyma', 'xylem ', 'cambium'],
+            answer: 3,
+        },
+        {
+            question: 'Main function of lenticel is',
+            options: [
+                'transpiration ',
+                'guttation',
+                'gaseous exchange ',
+                'both A & B',
             ],
             answer: 1,
         },
         {
-            question: 'The term “New Systematics” was introduced by',
+            question: 'Cork is formed from',
+            options: ['phellogen ', 'vascular cambium', 'phloem ', 'xylem'],
+            answer: 1,
+        },
+        {
+            question:
+                'Which of the following statement(s) is/are correct about the ground tissue system?',
+            statement: [
+                'All tissues except epidermis and vascular bundles constitute the ground tissue.',
+                'It consists of xylem and phloem.',
+                'In leaves, it consists of thin - walled chloroplast containing cells called mesophyll.',
+            ],
+            options: ['Only 1', 'Both 1 and 3', 'Both 2 and 3', 'All of these'],
+            answer: 2,
+        },
+        {
+            question:
+                'Roots develop from parts of the plant other than radicle are called',
             options: [
-                'Bentham and Hooker ',
-                'Linnaeus',
-                'Julian Huxley ',
-                'A.P. de Candolle',
+                'tap roots ',
+                'fibrous roots',
+                'adventitious roots ',
+                'nodular roots',
             ],
             answer: 3,
         },
         {
-            question: 'Classification given by Bentham and Hooker is',
-            options: ['Artificial ', 'Natural', 'Phylogenetic ', 'Numerical'],
-            answer: 2,
+            question: 'Root hairs develop from',
+            options: [
+                'region of maturation',
+                'region of elongation',
+                'region of meristematic activity',
+                'root cap',
+            ],
+            answer: 1,
         },
         {
-            question: 'ficial system of classification was first used by',
+            question: 'Alternate type of phyllotaxy is found in',
+            options: ['china rose ', 'mustard', 'sunflower ', 'all of these'],
+            answer: 4,
+        },
+        {
+            question:
+                'Which one of the following process releases a carbon dioxide molecule?',
             options: [
-                'Linnaeus ',
-                'De Candolle',
-                'Pliny the Edler ',
-                'Bentham and Hooker',
+                'Glycolysis',
+                'Lactic acid fermentation',
+                'Alcohol fermentation',
+                'Hydrolysis of glycogen',
             ],
             answer: 3,
         },
         {
-            question: 'System of classification used by Linnaeus was',
+            question: 'Total number of ATP consume during Kreb’s cycle is',
+            options: ['0 ', '1', '2 ', '3'],
+            answer: 1,
+        },
+        {
+            question: 'Day neutral plants relate to',
             options: [
-                'Natural system ',
-                'Artificial system',
-                'Phylogenetic system ',
-                'Asexual system',
+                'loss of activity during day time.',
+                'flowering in all possible photoperiods.',
+                'overactive during day time.',
+                'no flowering in any photoperiods.',
+            ],
+            answer: 1,
+        },
+        {
+            question: 'Match The Column',
+            table: {
+                left: [
+                    'Auxin',
+                    'Cytokinins',
+                    'Abscisic acid',
+                    'Ethylene',
+                    'Growth of lateral buds',
+                ],
+                right: [
+                    'Fruit ripening',
+                    'Apical dominance',
+                    'Antagonist to GAs',
+                    'Stomatal opening and closing',
+                ],
+            },
+            options: [
+                'A-4, B-5, C-3,   D-1',
+                'A-2, B-4, C-3,4, D-1',
+                'A-2, B-5, C-3,4, D-1',
+                'A-3,4, B-5; C-2, D-1',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Match The Column',
+            table: {
+                left: ['Isotonic', 'Hypotonic', 'Hypertonic', 'Plasmolysis'],
+                right: [
+                    'External solution is more concentrated',
+                    'Shrinkage of protoplasm',
+                    'Solution is more dilute than the cytoplasm',
+                    'Two solutions have the same osmolarity',
+                ],
+            },
+            options: [
+                'A-2, B-1, C-4, D-3',
+                'A-4, B-3, C-1, D-2',
+                'A-3, B-1, C-4, D-2',
+                'A-2, B-3, C-4, D-1',
             ],
             answer: 2,
         },
         {
-            question: 'mportant criterion for modern day classification is',
+            question:
+                'Cloves, used as a spice, are derived from which of the following plant parts? [CDS]',
+            options: ['Seeds ', 'Fruits', 'Flower buds ', 'Young leaves'],
+            answer: 3,
+        },
+        {
+            question: 'Match The Column [IAS Prelim]',
+            table: {
+                left: ['Fruit', 'Seed', 'Wood', 'Starch'],
+                right: ['Ovule', 'Leaf', 'Stem', 'Ovary'],
+            },
             options: [
-                'Resemblances in morphology',
-                'Anatomical and physiological traits',
-                'Breeding habits',
-                'Presence or absence of notochord',
+                'A-2, B-1, C-3, D-4',
+                'A-4, B-1, C-3, D-2',
+                'A-2, B-3, C-1, D-4',
+                'A-4, B-3, C-1, D-2',
             ],
             answer: 2,
         },
         {
-            question: 'Binomial nomenclature means',
-            options: [
-                'One name given by two scientists',
-                'One scientific name consisting of a generic and specific epithet',
-                'Two names, one latinised, other of a person',
-                'Two names of same plant',
-            ],
+            question:
+                'The involvement of which one of the following is essential in the control of blood sugar? [NDA]',
+            options: ['Adrenal ', 'Pancreas', 'Parathyroid ', 'Spleen'],
             answer: 2,
         },
         {
-            question: 'Phylogenetic classification is based on',
+            question:
+                'Which one of the following pairs is not correctly matched: [NDA]',
             options: [
-                'Utilitarian system',
-                'Habits',
-                'Overall similarities',
-                'Common evolutionary descent',
+                'Loop of Henle : Kidney',
+                'Fallopian tube : Female reproductive system',
+                'Epididymis : Male reproductive system',
+                'Cowper’s gland : Intestine',
             ],
             answer: 4,
         },
         {
             question:
-                'Which of the following is less general in characters as compared to genus?',
-            options: ['Species ', 'Division', 'Class ', 'Family'],
+                'Which one of the following glands produces insulin in human body? [NDA]',
+            options: ['Liver ', 'Pancreas', 'Spleen ', 'Pituitary'],
+            answer: 2,
+        },
+        {
+            question:
+                'A surge of which hormone stimulates ovulation in human females? [NDA]',
+            options: [
+                'Luteinizing hormone',
+                'Estrogen',
+                'Follicle stimulating hormone',
+                'Progesterone',
+            ],
+            answer: 1,
+        },
+        {
+            question: 'Which one of the following is an enzyme? [NDA]',
+            options: ['Gastrin ', 'Keratin', 'Trypsin ', 'Vasopressin'],
+            answer: 3,
+        },
+        {
+            question:
+                'Due to accumulation of which one of the following, joggers experience pain in their leg muscles after running? [NDA]',
+            options: [
+                'Lactic acid ',
+                'Acetic acid',
+                'Malic acid ',
+                'Citric acid',
+            ],
             answer: 1,
         },
         {
             question:
-                'The practical purpose of classification of living organisms is to',
+                'A typical human ribcage consists of how many ribs? [NDA]',
+            options: ['12 ', '14', '16 ', '24'],
+            answer: 1,
+        },
+        {
+            question:
+                'Biological catalysts in living organisms are known as [NDA]',
+            options: ['hormones ', 'vitamins', 'steroids ', 'enzymes'],
+            answer: 4,
+        },
+        {
+            question: 'Cure to spinal injury is likely to emerge from [NDA]',
             options: [
-                'explain the origin of living organsims',
-                'trace the evolution of living organsims',
-                'name the living organisms',
-                'facilitate identification of unknown organisms',
+                'gene therapy ',
+                'stem cell therapy',
+                'xenograft ',
+                'transfusion',
+            ],
+            answer: 2,
+        },
+        {
+            question:
+                'Which one among the following statements about stomach is not correct? [NDA]',
+            options: [
+                'Stomach acts as a temporary reservoir',
+                'Stomach mixes food with gastric juice',
+                'Stomach secretes lipase and amylase in gastric juice',
+                'Rate of stomach emptying depends on the type of food',
             ],
             answer: 4,
         },
         {
-            question: 'The five-kingdom classification was suggested by',
-            options: [
-                'Eichler ',
-                'Whittaker',
-                'Engler and Prantl ',
-                'Bentham & Hooker',
-            ],
-            answer: 2,
-        },
-        {
             question:
-                'The disadvantage of using common names for species is that',
+                'Which one among the following statements is correct? [NDA]',
             options: [
-                'the names may change',
-                'one name does not apply universally',
-                'one species may have several common names and one common name may be applied to two species',
-                'All of the above',
-            ],
-            answer: 4,
-        },
-        {
-            question:
-                'An organism is in the same class but not in the same family. It may belong to same',
-            options: ['Genus ', 'Species', 'Variety ', 'Order'],
-            answer: 4,
-        },
-        {
-            question: 'The order generally ends with',
-            options: ['Ales ', 'Aceae', 'Eae ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'Practical significance of taxonomy is',
-            options: [
-                'Classification',
-                'To understand diversity',
-                'To understand evolution',
-                'Identification of organisms',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'Taxonomic hierarchy refers to',
-            options: [
-                'Step-wise arrangement of all categories for classification of plants and animals',
-                'A group of senior taxonomists who decide the nomenclature of plants and animals',
-                'A list of botanists or zoologists who have worked on taxonomy of a species or group',
-                'Classification of a species based on fossil record',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The ‘Birds’ taxonomically represent',
-            options: ['Family ', 'Order', 'Class ', 'Phylum'],
-            answer: 3,
-        },
-        {
-            question:
-                'Karyotaxonomy is a modern branch of classification which is based on',
-            options: [
-                'organic evolution',
-                'number of nuclei',
-                'number of chromosomes',
-                'trinomial nomenclature',
-            ],
-            answer: 3,
-        },
-        {
-            question: "57. Who is known as 'Father of Taxonomy'",
-            options: ['Huxley ', 'Linnaeus', 'Theophrastus ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'The systematic arrangement of taxa is called',
-            options: ['Key ', 'Taxonomy', 'Geneology ', 'Hierarchy'],
-            answer: 4,
-        },
-        {
-            question:
-                'The taxonomic status of an organism can be changed by changing',
-            options: [
-                'anatomy ',
-                'physiology',
-                'morphology ',
-                'genetic make up',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'The standard size of herbarium sheets is',
-            options: [
-                '11.5" × 16.5" ',
-                '15.5" × 16.5"',
-                '18.5" × 10.5" ',
-                '20.5" × 21.5"',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Herbarium is',
-            options: [
-                'A garden where medicinal plants are grown',
-                'Garden where herbaceous plants are grown',
-                'Dry garden',
-                'Chemical to kill plants',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Sequence of taxonomic categories is',
-            options: [
-                'Class – Phylum – Tribe – Order – Family – Genus – Species',
-                'Division – Class – Family – Tribe – Order – Genus – Species',
-                'Division – Class – Order – Family – Tribe – Genus – Species',
-                'Phylum – Order – Class – Tribe – Family – Genus – Species',
+                'All arteries carry oxygenated blood',
+                'All veins carry oxygenated blood',
+                'Except the pulmonary artery, all other arteries carry oxygenated blood',
+                'Except the pulmonary vein, all other veins carry oxygenated blood',
             ],
             answer: 3,
         },
         {
             question:
-                '“Taxonomy without phylogeny is similar to bones without flesh” is the statement of',
+                'Which one among the following is the hardest part of our body ? [NDA]',
             options: [
-                'Oswald Tippo ',
-                'John Hutchinson',
-                'Takhtajan ',
-                'Bentham and Hooker',
+                'Skull bones of head',
+                'Thumb nails',
+                'Enamel of teeth',
+                'Spinal vertebra',
             ],
             answer: 3,
-        },
-        {
-            question: 'The famous botanical garden ‘Kew’ is located in',
-            options: ['England ', 'Lucknow', 'Berlin ', 'Australia'],
-            answer: 1,
-        },
-        {
-            question: 'The Indian Botanical garden is located in',
-            options: ['Howrah ', 'Lucknow', 'Mumbai ', 'Mysore'],
-            answer: 1,
-        },
-        {
-            question:
-                'Following taxonomic aid provides information for the identification of names of species found in an area',
-            options: ['Monograph ', 'Manual', 'Flora ', 'Periodical'],
-            answer: 2,
-        },
-        {
-            question: 'developed the ‘key’ for identification of animals?',
-            options: ['John Ray ', 'Goethe', 'Theophrastus ', 'George Cuvier'],
-            answer: 1,
-        },
-        {
-            question: 'An important function of botanical garden is',
-            options: [
-                'Providing beautiful area for recreation',
-                'One can observe tropical plants over there',
-                'They allow ex-situ conservation of germ plasm',
-                'They provide natural habitat to wildlife',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'ICBN stands for',
-            options: [
-                'International Code of Botanical Nomenclature',
-                'International Congress of Biological Names',
-                'Indian Code of Botanical Nomenclature',
-                'Indian Congress of Biological Names.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'As we go from species to kingdom in a taxonomic hierachy, the number of common characteristics',
-            options: [
-                'will decrease.',
-                'will increase.',
-                'remain same.',
-                'may increase or decrease.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'Which one of the following aspects is an exclusive characteristic of living things ?',
-            options: [
-                'Isolated metabolic reactions occur in vitro',
-                'Increase in mass from inside only',
-                'Perception of events happening in the environment and their memory',
-                'Increase in mass by accumulation of material both on surface as well as internally.',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'most important feature of all living systems is to',
-            options: [
-                'utilize oxygen to generate energy',
-                'replicate the genetic information',
-                'produce gametes',
-                'utilize solar energy for metabolic activities',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'First life on earth was',
-            options: [
-                'Cyanobacteria',
-                'Chemoheterotrophs',
-                'Autotrophs',
-                'Phototrophs',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'What is true for individuals of same species?',
-            options: [
-                'Live in same niche ',
-                'Live in same habitat',
-                'Interbreeding ',
-                'Live in different habitat',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Organisms which obtain energy by the oxidation of reduced inorganic compounds are called',
-            options: [
-                'photoautotrophs ',
-                'chemoautotrophs',
-                'saprozoic ',
-                'coproheterotrophs',
-            ],
-            answer: 2,
         },
     ],
 };
