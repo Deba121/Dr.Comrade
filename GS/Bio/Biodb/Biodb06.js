@@ -1,674 +1,426 @@
 let quiz = {
-    chapter: 'The living World',
+    chapter: 'Nutrition, Health & Disease',
     topics: [
-        'Mordern',
-        'Antiant',
-        'Mediaval',
-        'Gandu',
-        'Animilia',
+        'Vitamins',
+        'Minerals',
+        'HIV',
+        'WHO',
+        'Hydroponics',
+        'Antibiotic',
         'Virus',
-        'Viroid',
-        'Prions',
+        'Bacteria',
     ],
-    title: 'The living World Ex1',
+    title: 'Nutrition, Health & Disease',
     colors: ['#096c86', '#096c8636', '#dbf6fb'],
     questions: [
         {
-            question:
-                'Which is the most important but generally not used criteria for the identification of the species ?',
+            question: 'The site of photosynthesis in plants is',
             options: [
-                'Interbreeding ',
-                'Morphology',
-                'Genetic material ',
-                'None of these',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'The living organisms can be unexceptionally distinguished from the non-living things on the basis of their ability for',
-            options: [
-                'interaction with the environment and progressive evolution',
-                'reproduction',
-                'growth and movement',
-                'responsiveness to touch',
+                'mitochondria ',
+                'chloroplasts',
+                'leucoplasts ',
+                'dictyosomes',
             ],
             answer: 2,
         },
         {
-            question: 'Biological organisation starts with',
+            question: 'Autotrophic nutrition occurs in',
             options: [
-                'cellular level',
-                'organism level',
-                'atomic level',
-                'sub-microscopic molecular level',
+                'fungi',
+                'plants',
+                'some protists and prokaryotes',
+                'Both B and C',
             ],
             answer: 4,
         },
         {
-            question:
-                'The growth and reproduction are mutually exclusive events in',
+            question: 'Select the correct statement.',
             options: [
-                'Plants only',
-                'Animals only',
-                'Higher animals and plants',
-                'Lower organisms',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'The sum total of chemical reactions occurring in our body is called',
-            options: [
-                'Metabolism ',
-                'Homeostasis',
-                'Irritability ',
-                'Catabolism',
+                'Heterotrophs do not synthesise their own food.',
+                'Heterotrophs utilise solar energy for photosynthesis.',
+                'Heterotrophs synthesise their own food.',
+                'Heterotrophs are capable of converting carbon dioxide and water into carbo-hydrates.',
             ],
             answer: 1,
         },
         {
-            question: 'Mark the correct statement',
+            question:
+                'Select the statement which does not occur during the process of photosynthesis.',
+            statement: [
+                'Absorption of light energy by chlorophyll.',
+                'Conversion of chemical energy to light energy and splitting of water molecules into hydrogen and oxygen.',
+                'Oxidation of carbon dioxide to carbohydrates.',
+            ],
+            options: ['1 and 2', '1 and 3', '2 and 3 ', 'All of the above'],
+            answer: 3,
+        },
+        {
+            question: 'Match The Column',
+            table: {
+                left: ['parasites', 'saprophytes', 'Autotrophs', 'Holozoic'],
+                right: ['fungi', 'Humans', 'Leech', 'Algae.'],
+            },
             options: [
-                'Only living organisms grow.',
-                'Plants grow only up to a certain age.',
-                'The growth in living organisms is from inside.',
-                'All of these',
+                'A-1, B-2, C-3, D-4',
+                'A-3, B-1, C-4, D-2',
+                'A-1, B-3, C-2, D-4',
+                'A-3, B-4, C-1, D-2',
+            ],
+            answer: 2,
+        },
+        {
+            question: 'Which of the following is a micronutrient element-',
+            options: ['Mg ', 'K', 'Ca ', 'Zn'],
+            answer: 4,
+        },
+        {
+            question: 'Erythropoesis may be stimulated by the deficiency of',
+            options: ['Iron ', 'Oxygen', 'Protein ', 'None of the above'],
+            answer: 2,
+        },
+        {
+            question:
+                'Stomata : gaseous exchange from leaves : gaseous exchange from bark cells',
+            options: ['cuticles ', 'pores', 'stomata ', 'lenticels'],
+            answer: 4,
+        },
+        {
+            question: 'Exchange of gases in leaf occurs through',
+            options: [
+                'tentacles ',
+                'skin of the leaf',
+                'stomata ',
+                'root hair',
             ],
             answer: 3,
         },
         {
-            question:
-                'Which of the following biological processes do not operate within the life span of a given organism ?',
-            options: [
-                'Birth and nutrition',
-                'Growth and maturation',
-                'Metabolism and excretion',
-                'Decomposition and mineralization',
-            ],
+            question: 'Which mineral is obtained from the atmosphere?',
+            options: ['Potassium ', 'Iron', 'Magnesium ', 'Nitrogen'],
             answer: 4,
         },
         {
             question:
-                'Growth development and functioning of living body is due to -',
-            options: ['Order ', 'Homeostasis', 'Metabolism ', 'Adaptation'],
+                'Photosynthesis is an important mode of autotrophic nutrition. The event which does not occur in photosynthesis is',
+            options: [
+                'Conversion of light energy to chemical energy',
+                'Reduction of carbon dioxide to carbohydrate',
+                'Oxidation of carbon to carbondioxide',
+                'Absorption of light energy by chlorophyll',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Hydroponics refers to the plant development',
+            options: [
+                'without soil.',
+                'in saline soil.',
+                'in water without soil.',
+                'without soil with alkaline pH.',
+            ],
             answer: 3,
         },
         {
             question:
-                'Which type of organisation is found in only living beings ?',
-            options: ['Atomic ', 'Molecular', 'Mixture ', 'Sub-cellular'],
-            answer: 4,
-        },
-        {
-            question: 'Organisation levels in living beings are -',
+                'The major role of minor elements inside living organisms is to act as',
             options: [
-                'Subcellular cellular individual community population',
-                'Atomic molecular subcellular cellular tissue organ individual',
-                'Individual population organ system tissue cellular molecular atomic',
-                'Atomic molecular tissue individual ecosystem community.',
+                'binder of cell structure.',
+                'co-factors of enzymes.',
+                'building blocks of important amino acids.',
+                'constituent of hormones.',
             ],
             answer: 2,
         },
         {
-            question: 'Which of the following statement is false?',
+            question:
+                'Which of the following is not caused by deficiency of mineral nutrition?',
             options: [
-                'Properties of cellular organelles are present in the molecular constituents of the organelles.',
-                'Interactions among the molecular components of the organelles result into properties of cell organelles.',
-                'Biology is the story of life on earth.',
-                'Biology is the story of evolution of living organisms on earth.',
+                'Necrosis',
+                'Chlorosis',
+                'Etiolation',
+                'Shortening of internodes',
+            ],
+            answer: 3,
+        },
+        {
+            question: 'Boron in green plants assists in',
+            options: [
+                'sugar transport',
+                'activation of enzymes',
+                'acting as enzyme cofactor',
+                'photosynthesis',
             ],
             answer: 1,
         },
         {
-            question: 'A plant differs from an animal mainly in :',
+            question:
+                'Which of the following elements are constituents of protein?',
             options: [
-                'Protoplasm ',
-                'Vital activities',
-                'Nutrition ',
-                'Reproduction',
+                'Nitrogen and phosphorus',
+                'Nitrogen and chlorine',
+                'Phosphorus and boron',
+                'Chlorine and potassium',
             ],
-            answer: 3,
+            answer: 1,
         },
         {
-            question:
-                'Artificial system of classification classifies plants on the basis of',
+            question: 'Nitrogen fixation is a process of',
             options: [
-                'One or two characters',
-                'Phylogenetic trends',
-                'Many naturally existing characters',
-                'None of the above',
+                'converting nitrogen in the air to form a usable form by plants.',
+                'recycling nitrogen from organic matter in the soil.',
+                'absorbing nitrogen from the soil.',
+                'conversion of NO<sub>3</sub> to N<sub>2</sub> .',
             ],
             answer: 1,
         },
         {
             question:
-                'Group of organisms that closely resemble each other and freely interbreed in nature, constitute ',
-            options: ['Species ', 'Genus', 'Family ', 'Taxon'],
+                'Which of the following statements is not correct about macro- nutrients?',
+            options: [
+                'They are present in plant tissues in excess of 100 m mole per kg of dry matter.',
+                'They include C, H, O, N, P, S, K, Ca, Mg.',
+                'Some elements attained from CO<sub>2</sub> and H<sub>2</sub>O while the others are absorbed from the soil.',
+                'C, H & O are mainly obtained from CO<sub>2</sub> and H<sub>2</sub>O.',
+            ],
             answer: 1,
         },
         {
-            question: 'ICBN was first revised in',
-            options: ['1961 ', '1964', '1975 ', '1753'],
-            answer: 3,
-        },
-        {
-            question: 'The term taxon refers to',
+            question: 'Match The Column',
+            table: {
+                left: ['K', 'Mo', 'P', 'Mn'],
+                right: [
+                    'Stomatal opening',
+                    'Constituent of cell membrane',
+                    'Photolysis of water',
+                    'Free ion',
+                    'Component of nitrogenase and nitrate reductase',
+                ],
+            },
             options: [
-                'Name of a species',
-                'Name of genus',
-                'Name of family',
-                'A taxonomic group of any rank',
+                'A-1,4, B-5, C-2, D-3',
+                'A-1,5, B-4, C-3, D-2',
+                'A-1,5, B-4, C-2, D-3',
+                'A-4, B-1, C-3, D-2,5',
             ],
-            answer: 4,
+            answer: 1,
         },
         {
-            question:
-                'The herbarium specimen on whose basis a new species is described for the first time is called as',
-            options: ['Syntype ', 'Holotype', 'Paratype ', 'Neotype'],
-            answer: 2,
-        },
-        {
-            question:
-                'The scientific naming of plants began with publication of Linnaeus book',
+            question: 'Match The Column',
+            table: {
+                left: ['Zinc', 'Sulphur', 'Magnesium', 'Molybdenum'],
+                right: ['Chlorophyll', 'IAA', 'Nitrate reductase', 'Cysteine'],
+            },
             options: [
-                'Genera plantarum ',
-                'Systema naturae',
-                'Species plantarum ',
-                'Charaka sanhita',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The basic unit of classification is',
-            options: ['Genus ', 'Species', 'Order ', 'All of these'],
-            answer: 2,
-        },
-        {
-            question:
-                'Individuals of same species having non-genetic differences due to environment are called',
-            options: ['Biotypes ', 'Ecotype', 'Ecophenes ', 'None of these'],
-            answer: 3,
-        },
-        {
-            question:
-                'Morphologically similar but reproductively isolated species are called',
-            options: [
-                'Neontological species ',
-                'Sibling species',
-                'Allopatric species ',
-                'Morpho-species',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Plant nomenclature means :',
-            options: [
-                'To give names to plants without any rules',
-                'Nomenclature of plants under the international rules',
-                'Nomenclature of plants in local language',
-                'Nomenclature of plants in english language',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Taxonomy refers to',
-            options: [
-                'Plant classification ',
-                'Plant nomenclature',
-                'Plant affinity ',
-                'All of these',
+                'A-1, B-2, C-3, D-4',
+                'A-3, B-4, C-1, D-2',
+                'A-3, B-1, C-2, D-4',
+                'A-2, B-4, C-1, D-3',
             ],
             answer: 4,
         },
         {
-            question: 'Which of the following is a correct name ?',
+            question: 'Passive immunity was discovered by',
             options: [
-                'Solanum tuberosum',
-                'Solanum Tuberosum',
-                'Solanum tuberosum Linn.',
-                'All of these',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Systematics deals with',
-            options: [
-                'Classification ',
-                'Nomenclature',
-                'Plant description ',
-                'Plant exploration',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Phylogeny refers to',
-            options: [
-                'Natural classification',
-                'Evolutionary classification',
-                'Evolutionary history',
-                'Origin of algae',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Static concept of species is given by',
-            options: ['Linnaeus ', 'Bentham', 'Koch ', 'Mayr'],
-            answer: 1,
-        },
-        {
-            question: 'In taxonomy the first step is :',
-            options: [
-                'Identification ',
-                'Nomenclature',
-                'Classification ',
-                'Affinities',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The suffix - inae signifies the rank :',
-            options: ['Tribe ', 'Sub tribe', 'Sub order ', 'Sub family'],
-            answer: 2,
-        },
-        {
-            question:
-                'Species living in different geographical areas are called',
-            options: ['Allochronic ', 'Allopatric', 'Sympatric ', 'Siblings'],
-            answer: 2,
-        },
-        {
-            question: 'Biological concept of species proposed by',
-            options: ['Linnaeus ', 'Mayr', 'John Ray ', 'De Candolle'],
-            answer: 2,
-        },
-        {
-            question:
-                'For higher plants, flowers are chiefly used as a basis of classification, because',
-            options: [
-                'These show a great variety in colour',
-                'It can be preserved easily',
-                'Reproductive parts are more conservative than vegetative parts',
-                'None of these',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The smallest unit of classification is',
-            options: ['Family ', 'Order', 'Genus ', 'Species'],
-            answer: 4,
-        },
-        {
-            question: 'A division is formed by combining several',
-            options: ['Orders ', 'Families', 'Classes ', 'Tribes'],
-            answer: 3,
-        },
-        {
-            question:
-                'What characters are used for declaration of new species of higher plants ?',
-            options: [
-                'Floral character of new species',
-                'Anatomical characters of new species',
-                'Physiological charactes of new species',
-                'Character of endosperm',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Evolutionary classification is called',
-            options: [
-                'Artificial system ',
-                'Natural system',
-                'Phylogenetic system ',
-                'None of the above',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Which of the following statements regarding nomenclature is correct ?',
-            options: [
-                'Generic name always begins with capital letter whereas specific name with small letter',
-                'Scientific name should be printed in italics',
-                'Scientific name when typed or handwritten should be underlined',
-                'All the above',
+                'Robert Koch',
+                'L. Pasteur',
+                'Edward Jenner',
+                'Eemil Von Behring',
             ],
             answer: 4,
         },
         {
-            question: 'biological concept of species is mainly based on',
+            question: 'The term “antibiotic” was coined by',
             options: [
-                'Morphological features',
-                'Morphology and method of reproduction',
-                'Method of reproduction only',
-                'Reproductive isolation',
+                'Alexander fleming',
+                'Edward Jenner',
+                'Louis Pasteur',
+                'Selman waksman',
             ],
             answer: 4,
         },
         {
-            question:
-                'Which system classifies a plant in more than one groups ?',
+            question: 'The malignant tertian malaria is caused by',
             options: [
-                'Practical classification',
-                'Artificial classification',
-                'Natural classification',
-                'Phylogenetic classification',
+                'Plasmodium vivax',
+                'Plasmodium falciparum',
+                'Plasmodium ovale',
+                'Plasmodium malaria',
+            ],
+            answer: 2,
+        },
+        {
+            question: '‘Black death’ is related with',
+            options: ['plague', 'cancer', 'tuberculosis', 'measles'],
+            answer: 1,
+        },
+        {
+            question: 'Match The Column',
+            table: {
+                left: ['Streptomycin', 'Chloroquine', 'Penicillin', 'Insulin'],
+                right: [
+                    'Viral Disease',
+                    'Diabetes Mellitus',
+                    'Disease caused by Bacteria',
+                    'Malaria',
+                ],
+            },
+            options: [
+                'A-3, B-4, C-1, D-2',
+                'A-3, B-4, C-2, D-1',
+                'A-3, B-2, C-1, D-4',
+                'A-1, B-2, C-3, D-4',
             ],
             answer: 1,
         },
         {
-            question: 'The term “New Systematics” was introduced by',
+            question: 'Match The Column',
+            table: {
+                left: ['Small pox', 'Cholera', 'Malaria', 'Anaemia'],
+                right: [
+                    'Bacteria',
+                    'Virus',
+                    'Deficiency of minerals',
+                    'Female mosquito',
+                ],
+            },
             options: [
-                'Bentham and Hooker ',
-                'Linnaeus',
-                'Julian Huxley ',
-                'A.P. de Candolle',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Classification given by Bentham and Hooker is',
-            options: ['Artificial ', 'Natural', 'Phylogenetic ', 'Numerical'],
-            answer: 2,
-        },
-        {
-            question: 'ficial system of classification was first used by',
-            options: [
-                'Linnaeus ',
-                'De Candolle',
-                'Pliny the Edler ',
-                'Bentham and Hooker',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'System of classification used by Linnaeus was',
-            options: [
-                'Natural system ',
-                'Artificial system',
-                'Phylogenetic system ',
-                'Asexual system',
+                'A-4, B-2, C-3, D-1',
+                'A-2, B-1, C-4, D-3',
+                'A-4, B-3, C-2, D-1',
+                'A-3, B-4, C-1, D-2',
             ],
             answer: 2,
         },
         {
-            question: 'mportant criterion for modern day classification is',
+            question: 'DPT vaccine stands for',
             options: [
-                'Resemblances in morphology',
-                'Anatomical and physiological traits',
-                'Breeding habits',
-                'Presence or absence of notochord',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Binomial nomenclature means',
-            options: [
-                'One name given by two scientists',
-                'One scientific name consisting of a generic and specific epithet',
-                'Two names, one latinised, other of a person',
-                'Two names of same plant',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'Phylogenetic classification is based on',
-            options: [
-                'Utilitarian system',
-                'Habits',
-                'Overall similarities',
-                'Common evolutionary descent',
+                'diphtheria, polio & tuberculosis',
+                'diphtheria, pertussis & tuberculosis',
+                'diphtheria, polio & tetanus',
+                'diphtheria, pertussis and tetanus',
             ],
             answer: 4,
         },
         {
-            question:
-                'Which of the following is less general in characters as compared to genus?',
-            options: ['Species ', 'Division', 'Class ', 'Family'],
-            answer: 1,
-        },
-        {
-            question:
-                'The practical purpose of classification of living organisms is to',
+            question: 'Which Vector Spread the yellow fever disease?',
             options: [
-                'explain the origin of living organsims',
-                'trace the evolution of living organsims',
-                'name the living organisms',
-                'facilitate identification of unknown organisms',
+                'Musca sp ',
+                'Anopheles sp',
+                'Culex sp ',
+                'Aedes aegypti',
             ],
             answer: 4,
         },
         {
-            question: 'The five-kingdom classification was suggested by',
+            question: 'Which of the following is an air-borne disease?',
+            options: ['Tuberculosis ', 'Cholera', 'Jaundice ', 'Brain fever'],
+            answer: 1,
+        },
+        {
+            question: 'Which of the following is a communicable disease?',
+            options: ['Phenylketoneuria ', 'Cancer', 'Rabies ', 'Alkaptonuria'],
+            answer: 3,
+        },
+        {
+            question:
+                'Which of the following disease is confirmed by ‘widal test’?',
+            options: ['Tuberculosis ', 'Typhoid', 'Plague ', 'Tetanus'],
+            answer: 2,
+        },
+        {
+            question: '“Athlete’s Foot” is a disease caused by [IAS Prelim]',
+            options: ['Bacteria ', 'Fungus', 'Protozoan ', 'Nematode'],
+            answer: 2,
+        },
+        {
+            question:
+                'According to the World Health Organisation (WHO), the disease which causes the death of the largest number of people today is [IAS Prelim]',
+            options: ['AIDS ', 'Tuberculosis', 'Malaria ', 'Ebola'],
+            answer: 2,
+        },
+        {
+            question:
+                'Which of the following are associated with Diabetes mellitus, a common disease in adults ? [IAS Prelim]',
+            statement: [
+                'Higher sugar level in blood',
+                'Lower sugar level in blood',
+                'Lower insulin level in blood',
+                'Higher insulin level in blood',
+            ],
+            options: ['2 and 4 ', '1 and 2', '2 and 3 ', '1 and 3'],
+            answer: 4,
+        },
+        {
+            question:
+                'Consider the following statements. AIDS -is transmitted [IAS Prelim]',
+            statement: [
+                'By sexual intercourse',
+                'By blood transfusion',
+                'By mosquitoes and other blood sucking insects',
+                'Across the placenta',
+            ],
             options: [
-                'Eichler ',
-                'Whittaker',
-                'Engler and Prantl ',
-                'Bentham & Hooker',
+                '1, 2 and 3 are correct',
+                '1, 2 and 4 are correct',
+                '1, 3 and 4 are correct',
+                '1 and 3 are correct',
             ],
             answer: 2,
         },
         {
             question:
-                'The disadvantage of using common names for species is that',
-            options: [
-                'the names may change',
-                'one name does not apply universally',
-                'one species may have several common names and one common name may be applied to two species',
-                'All of the above',
-            ],
+                'People drinking water from a shallow hand pump, are likely to suffer from all of the following diseases except [IAS Prelim]',
+            options: ['Cholera ', 'Typhoid', 'Jaundice ', 'Fluorosis'],
             answer: 4,
         },
         {
             question:
-                'An organism is in the same class but not in the same family. It may belong to same',
-            options: ['Genus ', 'Species', 'Variety ', 'Order'],
-            answer: 4,
-        },
-        {
-            question: 'The order generally ends with',
-            options: ['Ales ', 'Aceae', 'Eae ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'Practical significance of taxonomy is',
+                'The major chemical compound found in kidney stones is : [IAS Prelim]',
             options: [
-                'Classification',
-                'To understand diversity',
-                'To understand evolution',
-                'Identification of organisms',
-            ],
-            answer: 4,
-        },
-        {
-            question: 'Taxonomic hierarchy refers to',
-            options: [
-                'Step-wise arrangement of all categories for classification of plants and animals',
-                'A group of senior taxonomists who decide the nomenclature of plants and animals',
-                'A list of botanists or zoologists who have worked on taxonomy of a species or group',
-                'Classification of a species based on fossil record',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'The ‘Birds’ taxonomically represent',
-            options: ['Family ', 'Order', 'Class ', 'Phylum'],
-            answer: 3,
-        },
-        {
-            question:
-                'Karyotaxonomy is a modern branch of classification which is based on',
-            options: [
-                'organic evolution',
-                'number of nuclei',
-                'number of chromosomes',
-                'trinomial nomenclature',
+                'urea',
+                'calcium carbonate',
+                'calcium oxalate',
+                'calcium sulphate',
             ],
             answer: 3,
         },
         {
-            question: "57. Who is known as 'Father of Taxonomy'",
-            options: ['Huxley ', 'Linnaeus', 'Theophrastus ', 'None of these'],
-            answer: 2,
-        },
-        {
-            question: 'The systematic arrangement of taxa is called',
-            options: ['Key ', 'Taxonomy', 'Geneology ', 'Hierarchy'],
-            answer: 4,
+            question: 'Antigen is a substance which [IAS Prelim]',
+            options: [
+                'lowers body temperatures',
+                'destroys harmful bacteria',
+                'triggers the immune system',
+                'is used as an antidote to poison',
+            ],
+            answer: 3,
         },
         {
             question:
-                'The taxonomic status of an organism can be changed by changing',
+                'Haemophilia is a genetic disorder which leads to [IAS Prelim]',
             options: [
-                'anatomy ',
-                'physiology',
-                'morphology ',
-                'genetic make up',
+                'decrease in haemoglobin level',
+                'rheumatic heart disease',
+                'decrease in WBC',
+                'non-clotting of blood',
             ],
             answer: 4,
         },
         {
-            question: 'The standard size of herbarium sheets is',
+            question: 'Match The Column [IAS Prelim]',
+            table: {
+                left: ['Atropine', 'Ether', 'Nitroglycerine', 'Pyrethrin'],
+                right: [
+                    'Local anaesthesia',
+                    'Heart trouble',
+                    'Dilation of pupil',
+                    'Mosquito control',
+                ],
+            },
             options: [
-                '11.5" × 16.5" ',
-                '15.5" × 16.5"',
-                '18.5" × 10.5" ',
-                '20.5" × 21.5"',
-            ],
-            answer: 1,
-        },
-        {
-            question: 'Herbarium is',
-            options: [
-                'A garden where medicinal plants are grown',
-                'Garden where herbaceous plants are grown',
-                'Dry garden',
-                'Chemical to kill plants',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'Sequence of taxonomic categories is',
-            options: [
-                'Class – Phylum – Tribe – Order – Family – Genus – Species',
-                'Division – Class – Family – Tribe – Order – Genus – Species',
-                'Division – Class – Order – Family – Tribe – Genus – Species',
-                'Phylum – Order – Class – Tribe – Family – Genus – Species',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                '“Taxonomy without phylogeny is similar to bones without flesh” is the statement of',
-            options: [
-                'Oswald Tippo ',
-                'John Hutchinson',
-                'Takhtajan ',
-                'Bentham and Hooker',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'The famous botanical garden ‘Kew’ is located in',
-            options: ['England ', 'Lucknow', 'Berlin ', 'Australia'],
-            answer: 1,
-        },
-        {
-            question: 'The Indian Botanical garden is located in',
-            options: ['Howrah ', 'Lucknow', 'Mumbai ', 'Mysore'],
-            answer: 1,
-        },
-        {
-            question:
-                'Following taxonomic aid provides information for the identification of names of species found in an area',
-            options: ['Monograph ', 'Manual', 'Flora ', 'Periodical'],
-            answer: 2,
-        },
-        {
-            question: 'developed the ‘key’ for identification of animals?',
-            options: ['John Ray ', 'Goethe', 'Theophrastus ', 'George Cuvier'],
-            answer: 1,
-        },
-        {
-            question: 'An important function of botanical garden is',
-            options: [
-                'Providing beautiful area for recreation',
-                'One can observe tropical plants over there',
-                'They allow ex-situ conservation of germ plasm',
-                'They provide natural habitat to wildlife',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'ICBN stands for',
-            options: [
-                'International Code of Botanical Nomenclature',
-                'International Congress of Biological Names',
-                'Indian Code of Botanical Nomenclature',
-                'Indian Congress of Biological Names.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'As we go from species to kingdom in a taxonomic hierachy, the number of common characteristics',
-            options: [
-                'will decrease.',
-                'will increase.',
-                'remain same.',
-                'may increase or decrease.',
-            ],
-            answer: 1,
-        },
-        {
-            question:
-                'Which one of the following aspects is an exclusive characteristic of living things ?',
-            options: [
-                'Isolated metabolic reactions occur in vitro',
-                'Increase in mass from inside only',
-                'Perception of events happening in the environment and their memory',
-                'Increase in mass by accumulation of material both on surface as well as internally.',
-            ],
-            answer: 3,
-        },
-        {
-            question: 'most important feature of all living systems is to',
-            options: [
-                'utilize oxygen to generate energy',
-                'replicate the genetic information',
-                'produce gametes',
-                'utilize solar energy for metabolic activities',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'First life on earth was',
-            options: [
-                'Cyanobacteria',
-                'Chemoheterotrophs',
-                'Autotrophs',
-                'Phototrophs',
-            ],
-            answer: 2,
-        },
-        {
-            question: 'What is true for individuals of same species?',
-            options: [
-                'Live in same niche ',
-                'Live in same habitat',
-                'Interbreeding ',
-                'Live in different habitat',
-            ],
-            answer: 3,
-        },
-        {
-            question:
-                'Organisms which obtain energy by the oxidation of reduced inorganic compounds are called',
-            options: [
-                'photoautotrophs ',
-                'chemoautotrophs',
-                'saprozoic ',
-                'coproheterotrophs',
+                'A-1, B-3, C-2, D-4',
+                'A-1, B-3, C-4, D-2',
+                'A-3, B-1, C-4, D-2',
+                'A-3, B-1, C-2, D-4',
             ],
             answer: 2,
         },
